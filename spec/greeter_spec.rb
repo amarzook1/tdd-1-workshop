@@ -7,8 +7,8 @@ describe Greeter do
   end
   
   describe'#greet' do
-    it 'responds to ahmed' do
-        expect(subject.greet("bob", "cow")).to eq("bob" "moo")
+    it 'responds to name and animal' do
+        expect(subject.greet("bob", "cow")).to eq("bob! moo!")
     end
   end
 end

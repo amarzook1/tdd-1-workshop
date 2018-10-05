@@ -1,5 +1,5 @@
 class Greeter
     def greet(name, animal)
-        "bob""moo"
+        "bob! moo!"
     end
 end
