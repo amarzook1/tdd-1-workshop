@@ -13,5 +13,8 @@ describe Greeter do
     it 'responds to name and cow' do
         expect(subject.greet("jennie", "cow")).to eq("jennie! moo!")
     end
+    it 'responds to name and animal' do
+     expect(subject.greet("samuel", "sheep")).to eq("samuel! baa!")
+    end
   end
 end
