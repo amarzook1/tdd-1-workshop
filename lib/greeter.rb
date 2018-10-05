@@ -1,4 +1,4 @@
 class Greeter
-    def greet
+    def greet(name, animal)
     end
 end
